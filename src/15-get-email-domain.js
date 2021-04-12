@@ -9,12 +9,8 @@
  *
  */
 
- function getEmailDomain(email) {
-
+function getEmailDomain (email) {
   const index = email.lastIndexOf('@');
   return email.split('').splice(index + 1).join('');
 }
-
-module.exports = getEmailDomain;
-
 module.exports = getEmailDomain;
